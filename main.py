@@ -1,3 +1,8 @@
+import sys
+
+sys.stdin = open("balancing.in", "r")
+sys.stdout = open("balancing.out", "w")
+
 s = int(input())
 val = []
 x_cor = []
